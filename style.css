@@ -39,6 +39,19 @@ h1,h2,h3,h4,h5,h6{
     font-size: 100% !important;
   }
 } */
+
+@media screen and (max-width: 480px) {
+  h1 {
+    font-size: 1.5rem !important;
+  }
+	 h2 {
+    font-size: 1.2rem !important;
+  }
+ p {
+    font-size: .7rem !important;
+  }
+}
+
 .fontcurve{
   font-family: 'Brush Script MT', cursive;
 }
